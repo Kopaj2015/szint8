@@ -12,7 +12,7 @@ Router.configure({
  */
 Router.onBeforeAction(function () {
   if (!Meteor.userId()) {
-    this.redirect('chatRoom');
+    this.redirect('events');
   } else {
     this.next();
   }
@@ -25,14 +25,8 @@ Router.onBeforeAction(function () {
  * Subscribes to the required publications.
  */
 Router.route('/', {
-  name:     'chatRoom',
-  template: 'chatRoom',
-  subscriptions: function() {
-    return [
-      Meteor.subscribe('messages'),
-      Meteor.subscribe('userIds')
-    ];
-  }
+  name:     'events',
+  template: 'events'
 });
 
 /**
@@ -41,4 +35,9 @@ Router.route('/', {
 Router.route('/user', {
   name:     'userDetails',
   template: 'userDetails'
+});
+
+Router.route('/events', {
+  name:     'events',
+  template: 'events'
 });

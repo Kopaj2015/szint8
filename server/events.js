@@ -5,7 +5,7 @@
  * Publish the 8 latest messages.
  * @return {Mongo.Cursor} Sorted and limited collection objects.
  */
-Meteor.publish('events', function () {
+Meteor.publish('getEvents', function () {
     return Events.find({}, { sort: {createdAt: -1}});
 });
 

@@ -31,7 +31,9 @@ Template.events.helpers({
      * Get the events from the database.
      * @returns {Mongo.Cursor} Mongo Cursor of the events.
      */
-    getEvent: function() {
+    getEvents: function() {
+        Meteor.call("addEvent", "sport", 10, 20, 12);
+        alert("created");
         return Events.find({}, { sort: {createdAt: -1}});
     }
 
