@@ -9,18 +9,3 @@ Meteor.publish('getEvents', function () {
     return Events.find({}, { sort: {createdAt: -1}});
 });
 
-Meteor.methods({
-    /**
-     * Save a event to the backend database.
-     */
-    addEvent: function(name, homePoints, guestPoints, xPoints) {
-        if(Meteor.user()) {
-            Events.insert({
-                homePoints: homePoints,
-                guestPoints : guestPoints,
-                xPoints : xPoints,
-                createdAt: new Date()
-            });
-        }
-    }
-});
