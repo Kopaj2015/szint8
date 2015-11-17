@@ -1,0 +1,19 @@
+<template name="rangList">
+    <div class="rangList page container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center">Show ranglist</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="list-unstyled">
+                    {{#each getRanglist}}
+                        Floor: {{floor}}
+                        Points:{{points}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>

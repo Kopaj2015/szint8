@@ -20,14 +20,26 @@ Router.onBeforeAction(function () {
   only: ['userDetails']
 });
 
+
+
+Router.route('/rangList', {
+  name:     'rangList',
+  template: 'rangList'
+});
+
+Router.route('/events', {
+  name:     'events',
+  template: 'events'
+});
+
 /**
  * Router definition for the chat room page.
  * Subscribes to the required publications.
  */
-Router.route('/', {
-  name:     'events',
-  template: 'events'
+Router.route('/', function(){
+  this.redirect('events');
 });
+
 
 /**
  * Router definition for the user details page.
@@ -35,9 +47,4 @@ Router.route('/', {
 Router.route('/user', {
   name:     'userDetails',
   template: 'userDetails'
-});
-
-Router.route('/events', {
-  name:     'events',
-  template: 'events'
 });
