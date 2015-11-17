@@ -2,14 +2,14 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="{{pathFor 'chatRoom'}}">Best Chat App</a>
+        <a class="navbar-brand" href="{{pathFor 'chatRoom'}}">KOPAJ Mix</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           {{#if currentUser}}
-            <li><a href="{{pathFor 'userDetails'}}">User Details</a></li>
+            <li><a href="{{pathFor 'userDetails'}}">Felhasználói adatok</a></li>
           {{/if}}
-          {{> loginButtons}}
+          {{> login}}
         </ul>
       </div>
     </div>
