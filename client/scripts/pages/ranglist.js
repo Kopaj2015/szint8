@@ -4,8 +4,16 @@
 Meteor.subscribe("getRangList");
 
 Template.rangList.helpers({
+    /**
+     * Get the ranglist from the database.
+     * @returns {Mongo.Cursor} Mongo Cursor of the events.
+     */
     getRangList: function() {
-        return Ranglist.find({}, { sort: {createdAt: -1}});
+        console.log(Meteor.users.find({}));
+        var users = Meteor.users.find({}, { sort: {createdAt: -1}});
+        var events = Events.find({ date: { $lt: new Date() } });
+        var bets = Bets.find({ userId: Meteor.users._id });
+        return Meteor.users.find({}, { sort: {createdAt: -1}});
     }
 });
 

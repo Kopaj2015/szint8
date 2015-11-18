@@ -9,7 +9,7 @@ Template.events.helpers({
      * @returns {Mongo.Cursor} Mongo Cursor of the events.
      */
     getEvents:function() {
-        return Events.find({});
+        return Events.find({ date: { $gt: new Date() } });
     }
 
 });
@@ -19,7 +19,6 @@ Template.events.helpers({
 Template.events.events({
 
     "click .toggle-checked": function(event) {
-        event.preventDefault();
         Meteor.call('addBet', event.target.id, Meteor.user()._id, event.target.value);
     }
 });

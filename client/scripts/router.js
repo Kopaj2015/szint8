@@ -16,8 +16,6 @@ Router.onBeforeAction(function () {
   } else {
     this.next();
   }
-}, {
-  only: ['userDetails']
 });
 
 

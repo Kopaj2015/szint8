@@ -12,13 +12,20 @@
                         <tr>
                             <td class="text">{{name}}</td>
                             <td class="homePoints right-text">1
-                            <input name="{{name}}"id="1"  type="radio" checked="{{checked}}" class="toggle-checked" /></td>
-
+                                {{#if currentUser}}
+                                    <input name="{{name}}" id="1" type="radio" checked="{{checked}}" class="toggle-checked" />
+                                {{/if}}
+                            </td>
                             <td class="homePoints right-text">X
-                            <input name="{{name}}"id="2"  type="radio" checked="{{checked}}" class="toggle-checked" /></td>
-
+                                {{#if currentUser}}
+                                    <input name="{{name}}" id="2" type="radio" checked="{{checked}}" class="toggle-checked" />
+                                {{/if}}
+                            </td>
                             <td class="homePoints right-text">2
-                            <input name="{{name}}" id="3" type="radio" checked="{{checked}}" class="toggle-checked" /></td>
+                                {{#if currentUser}}
+                                    <input name="{{name}}" id="3" type="radio" checked="{{checked}}" class="toggle-checked" />
+                                {{/if}}
+                            </td>
                         </tr>
                     {{/each}}
                 </table>
