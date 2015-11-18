@@ -13,11 +13,11 @@ Template.events.helpers({
     }
 
 });
-/**
- *
- */
-Template.events.events({
 
+Template.events.events({
+    /**
+     * If checkbox clicked, than insert bet to MongoDB
+     */
     "click .toggle-checked": function(event) {
         Meteor.call('addBet', event.target.id, Meteor.user()._id, event.target.value);
     }

@@ -2,19 +2,6 @@
   <library name="meteor-packages-auto-import-browser" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-TW.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/web.browser/webapp_client.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sv.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/nl.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sk.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ko.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ru.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/vi.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pl.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pt-PT.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/el.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fi.i18n.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fr.i18n.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/he.i18n.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/it.i18n.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-CN.i18n.js" />
@@ -47,21 +34,23 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/route_controller.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/router.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/plugins.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/tmeasday_paginated-subscription/0.2.4/web.browser/packages/tmeasday_paginated-subscription.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/helpers.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/autoupdate/1.2.4/web.browser/autoupdate_client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/http_methods.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/current_options.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/route_controller_client.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/lai_collection-extensions/0.1.4/web.browser/packages/lai_collection-extensions.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/router_client.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/hooks.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/global_router.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/dburles_mongo-collection-instances/0.3.4/web.browser/packages/dburles_mongo-collection-instances.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/route.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_url/1.0.11/web.browser/lib/compiler.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_url/1.0.11/web.browser/lib/url.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/binary-heap/1.0.4/web.browser/min-max-heap.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/dburles_mongo-collection-instances/0.3.4/web.browser/packages/dburles_mongo-collection-instances.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/binary-heap/1.0.4/web.browser/min-heap.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/jquery/1.11.4/web.browser/jquery.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/binary-heap/1.0.4/web.browser/max-heap.js" />
@@ -153,13 +142,11 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.5/web.browser/charref.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.5/web.browser/parse.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/lai_collection-extensions/0.1.4/web.browser/packages/lai_collection-extensions.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.5/web.browser/html.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.5/web.browser/visitors.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.5/web.browser/preamble.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/tmeasday_paginated-subscription/0.2.4/web.browser/packages/tmeasday_paginated-subscription.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.5/web.browser/packages/twbs_bootstrap.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/web.browser/httpcall_common.js" />
@@ -185,22 +172,22 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/de.i18n.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ca.i18n.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/es.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-TW.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/web.browser/webapp_client.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sv.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/nl.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sk.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ko.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ru.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/vi.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pl.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pt-PT.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/el.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fi.i18n.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fr.i18n.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-TW.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/web.browser/webapp_client.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sv.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/nl.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sk.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ko.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ru.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/vi.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pl.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pt-PT.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/el.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fi.i18n.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fr.i18n.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/he.i18n.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/it.i18n.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-CN.i18n.js" />
@@ -233,21 +220,23 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/route_controller.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/router.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/plugins.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/tmeasday_paginated-subscription/0.2.4/web.browser/packages/tmeasday_paginated-subscription.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/helpers.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/autoupdate/1.2.4/web.browser/autoupdate_client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/http_methods.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/current_options.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/route_controller_client.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/lai_collection-extensions/0.1.4/web.browser/packages/lai_collection-extensions.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/router_client.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/hooks.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/global_router.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/dburles_mongo-collection-instances/0.3.4/web.browser/packages/dburles_mongo-collection-instances.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_router/1.0.12/web.browser/lib/route.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.4/web.browser/babel-runtime.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_url/1.0.11/web.browser/lib/compiler.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/iron_url/1.0.11/web.browser/lib/url.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/binary-heap/1.0.4/web.browser/min-max-heap.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/dburles_mongo-collection-instances/0.3.4/web.browser/packages/dburles_mongo-collection-instances.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/binary-heap/1.0.4/web.browser/min-heap.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/jquery/1.11.4/web.browser/jquery.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/binary-heap/1.0.4/web.browser/max-heap.js" />
@@ -339,13 +328,11 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.5/web.browser/charref.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.5/web.browser/parse.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/lai_collection-extensions/0.1.4/web.browser/packages/lai_collection-extensions.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.5/web.browser/html.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.5/web.browser/visitors.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.5/web.browser/preamble.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/tmeasday_paginated-subscription/0.2.4/web.browser/packages/tmeasday_paginated-subscription.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/3.3.5/web.browser/packages/twbs_bootstrap.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/http/1.1.1/web.browser/httpcall_common.js" />
@@ -371,6 +358,19 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/de.i18n.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ca.i18n.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/es.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/zh-TW.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/webapp/1.2.3/web.browser/webapp_client.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sv.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/nl.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/sk.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ko.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/ru.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/vi.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pl.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/pt-PT.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/el.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fi.i18n.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ian_accounts-ui-bootstrap-3/1.2.84/web.browser/i18n/fr.i18n.js" />
     </CLASSES>
     <SOURCES />
   </library>

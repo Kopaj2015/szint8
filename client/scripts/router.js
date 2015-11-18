@@ -31,8 +31,7 @@ Router.route('/events', {
 });
 
 /**
- * Router definition for the chat room page.
- * Subscribes to the required publications.
+ * Router definition for the events page.
  */
 Router.route('/', function(){
   this.redirect('events');

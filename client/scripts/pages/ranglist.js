@@ -5,7 +5,7 @@ Meteor.subscribe("getRangList");
 
 Template.rangList.helpers({
     /**
-     * Get the ranglist from the database.
+     * Get ranglist from MongoDB
      * @returns {Mongo.Cursor} Mongo Cursor of the events.
      */
     getRangList: function() {
