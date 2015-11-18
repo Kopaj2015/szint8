@@ -2,12 +2,16 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="{{pathFor 'chatRoom'}}">KOPAJ Mix</a>
+        <a class="navbar-brand" href="{{pathFor 'events'}}">KOPAJ Mix</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           {{#if currentUser}}
-            <li><a href="{{pathFor 'userDetails'}}">Felhasználói adatok</a></li>
+            <li><a href="{{pathFor 'events'}}">Események</a></li>
+            <li><a href="{{pathFor 'rangList'}}">Ranglista</a></li>
+            {{#if isAdmin currentUser.username}}
+              <li><a href="/admin">Admin</a></li>
+            {{/if}}
           {{/if}}
           {{> loginButtons}}
         </ul>

@@ -7,19 +7,21 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <ul class="list-unstyled">
+                <table class="events">
                     {{#each getEvents}}
-                            <span class="text">{{name}}</span>
-                            <span class="homePoints">{{homePoints}}</span>
-                            <input name="{{name}}" type="radio" checked="{{checked}}" class="toggle-checked" />
+                        <tr>
+                            <td class="text">{{name}}</td>
+                            <td class="homePoints right-text">1
+                            <input name="{{name}}" type="radio" checked="{{checked}}" class="toggle-checked" /></td>
 
-                            <span class="homePoints">{{xPoints}}</span>
-                            <input name="{{name}}" type="radio" checked="{{checked}}" class="toggle-checked" />
+                            <td class="homePoints right-text">X
+                            <input name="{{name}}" type="radio" checked="{{checked}}" class="toggle-checked" /></td>
 
-                            <span class="homePoints">{{homePoints}}</span>
-                            <input name="{{name}}" type="radio" checked="{{checked}}" class="toggle-checked" />
+                            <td class="homePoints right-text">2
+                            <input name="{{name}}" type="radio" checked="{{checked}}" class="toggle-checked" /></td>
+                        </tr>
                     {{/each}}
-                </ul>
+                </table>
             </div>
         </div>
     </div>

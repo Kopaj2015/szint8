@@ -6,8 +6,6 @@ Accounts.ui.config({
   passwordSignupFields: 'USERNAME_ONLY'
 });
 
-/**Accounts.config({
+Accounts.config({
   forbidClientAccountCreation : true
 });
-
-*/

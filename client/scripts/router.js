@@ -39,12 +39,3 @@ Router.route('/events', {
 Router.route('/', function(){
   this.redirect('events');
 });
-
-
-/**
- * Router definition for the user details page.
- */
-Router.route('/user', {
-  name:     'userDetails',
-  template: 'userDetails'
-});
