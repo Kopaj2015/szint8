@@ -10,12 +10,13 @@ Meteor.publish('getEvents', function () {
 });
 
 Meteor.methods({
-    addBet: function(bet) {
+    addBet: function(bet, userID, eventID) {
         if(Meteor.user()) {
             Bets.insert({
-                userId:  Meteor.user()._id,
-                eventID: bet.eventID,
-                createdAt: new Date()
+                userId:  userID,
+                eventID: eventID,
+                createdAt: new Date(),
+                checked: true
             });
         }
     }
