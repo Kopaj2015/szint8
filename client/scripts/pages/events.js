@@ -11,5 +11,18 @@ Template.events.helpers({
     getEvents:function() {
         return Events.find({});
     }
-});
 
+});
+/**
+ *
+ */
+Template.events.events({
+    "click .toggle-checked": function(event) {
+        event.preventDefault();
+        Meteor.call('addBet', event.target.id.value);
+        Bets.update(this._id, {
+            $set: {checked: ! this.checked}
+        });
+        event.target.message.value = '';
+    }
+});

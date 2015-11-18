@@ -9,3 +9,14 @@ Meteor.publish('getEvents', function () {
     return Events.find({}, { sort: {createdAt: -1}});
 });
 
+Meteor.methods({
+    addBet: function(bet) {
+        if(Meteor.user()) {
+            Bets.insert({
+                userId:  Meteor.user()._id,
+                eventID: bet.eventID,
+                createdAt: new Date()
+            });
+        }
+    }
+});
